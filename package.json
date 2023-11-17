@@ -28,7 +28,7 @@
   "scripts": {
     "build": "vite build && tsc -p tsconfig.build.json",
     "format": "pnpm dlx prettier --write './**/*.{ts,tsx}' && pnpm dlx sort-package-json && pnpm dlx sort-compiler-options",
-    "lint": "eslint ./src",
+    "lint": "eslint ./src/*",
     "prepublish": "pnpm build",
     "test": "jest"
   },

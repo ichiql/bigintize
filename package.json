@@ -1,6 +1,6 @@
 {
   "name": "@ichiql/bigintize",
-  "version": "0.1.10",
+  "version": "0.1.0",
   "description": "any to bigint",
   "keywords": [
     "bigintize",

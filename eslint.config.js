@@ -1,7 +1,11 @@
-/** @type {import('eslint').Linter.Config} */
-module.exports = {
-  root: true,
-  ignorePatterns: ['**/dist/', '**/node_modules/', '.eslintrc.cjs', 'vite.config.ts', 'jest.config.js'],
+export default {
+  ignorePatterns: [
+    '**/dist/',
+    '**/node_modules/',
+    '.eslintrc.cjs',
+    'vite.config.ts',
+    'jest.config.js',
+  ],
   env: { node: true },
   extends: [
     'eslint:recommended',
